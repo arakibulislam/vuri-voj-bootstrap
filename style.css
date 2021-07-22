@@ -52,11 +52,9 @@ nav{
     text-shadow:0px 5px 10px rgba(255, 174, 0, 0.26); 
     text-shadow: 0px 20px 40px rgba(255, 174, 0, 0.29);
 }
-.carousel-control-prev{
-    left: -200px;
-}
+
 .radius{
-    border-radius: 10px !important;
+    border-radius: 15px !important;
 }
 .card-footer{
     background-color: #F17228 !important;
@@ -65,6 +63,16 @@ nav{
 }
 .fast-bg{
     background-color: #F17228 ;
+}
+.install-bg{
+    background-image: url(images/cta-one-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.order-bg{
+    background-image: url(images/Image\ \(2\).png);
+    background-position: center;
+    background-size: cover;
 }
 @media only screen and (max-width:997px) {
     .coustom-height{
