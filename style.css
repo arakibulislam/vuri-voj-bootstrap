@@ -60,6 +60,13 @@ nav{
     background-color: #F17228 !important;
     box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
     border-radius: 8px !important;
+    transition: .5s;
+}
+.card-footer:hover{
+    background-color: black !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.22), 0px 20px 40px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: .5s;
 }
 .fast-bg{
     background-color: #F17228 ;
@@ -77,7 +84,10 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+}
+.icon-hover:hover{
+    color: orange !important;
+    cursor: pointer;
 }
 @media only screen and (max-width:997px) {
     .coustom-height{
@@ -85,3 +95,5 @@ nav{
     }
     
 }
+
+.
