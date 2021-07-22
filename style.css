@@ -1,0 +1,74 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{ 
+    background-color: #EBECF0;
+}
+.bg-coustom{
+    background: #EBECF0 !important;
+}
+.text-gradient {
+	text-transform: uppercase;
+	background: linear-gradient(to right, red,orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.coustom-shadow{
+    box-shadow: -4.08px -4.08px 12.25px #FFFFFF, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.2)
+
+
+}
+.font-size{
+    font-size: 60px;
+    font-weight: 900;
+}
+.form-padding{
+    background: #EBECF0;
+    
+    margin-top: 50px;
+    padding: 24px;
+    border-radius: 15px;
+}
+.image-hover{
+    transition: .4s;
+}
+
+.image-hover:hover{
+    transform: translateY(-3rem);
+}
+.system{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+.text-color{
+    color: #F17228;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.system-icon .fa-map-marker-alt, .fa-concierge-bell, .fa-file-invoice-dollar, .fa-pizza-slice{
+    color: rgba(255, 174, 0, 1);
+    font-size: 100px;
+    margin-bottom: 10%;
+    text-shadow:0px 5px 10px rgba(255, 174, 0, 0.26); 
+    text-shadow: 0px 20px 40px rgba(255, 174, 0, 0.29);
+}
+.carousel-control-prev{
+    left: -200px;
+}
+.radius{
+    border-radius: 10px !important;
+}
+.card-footer{
+    background-color: #F17228 !important;
+    box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+    border-radius: 8px !important;
+}
+.fast-bg{
+    background-color: #F17228 ;
+}
+@media only screen and (max-width:997px) {
+    .coustom-height{
+        height: 100% !important;
+    }
+    
+}
