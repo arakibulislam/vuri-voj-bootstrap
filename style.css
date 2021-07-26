@@ -113,14 +113,18 @@ transition: .5s;
     color: orange !important;
     cursor: pointer;
 }
-footer{
-    background: #303234;
-}
-@media only screen and (max-width:997px) {
+
+@media only screen and (max-width: 992px) {
     .coustom-height{
         height: 100% !important;
     }
-    
+
+    .searchbar{
+          box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(170, 170, 204, 0.25), inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #FFFFFF;
+          width: 200px;
+
+    }
+
 }
 
 .effect{
@@ -199,3 +203,24 @@ footer{
         visibility: visible;
     }
 }
+
+    .search_input{
+    background: none;
+    outline: none;
+    width: 0;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    width: 200px;
+    padding-left: 15px;
+    transition: width 0.4s linear;
+    }
+
+
+    .search_icon{
+    width: 40px;
+    color:white;
+    text-decoration:none;
+    }
